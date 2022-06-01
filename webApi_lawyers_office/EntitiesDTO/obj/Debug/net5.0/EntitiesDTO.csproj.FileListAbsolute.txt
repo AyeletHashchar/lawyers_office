@@ -1,0 +1,12 @@
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\bin\Debug\net5.0\EntitiesDTO.deps.json
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\bin\Debug\net5.0\EntitiesDTO.dll
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\bin\Debug\net5.0\ref\EntitiesDTO.dll
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\bin\Debug\net5.0\EntitiesDTO.pdb
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.csproj.AssemblyReference.cache
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.GeneratedMSBuildEditorConfig.editorconfig
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.AssemblyInfoInputs.cache
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.AssemblyInfo.cs
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.csproj.CoreCompileInputs.cache
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.dll
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\ref\EntitiesDTO.dll
+G:\Esther\studies\אחר\הפרויקט\web_api\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.pdb
