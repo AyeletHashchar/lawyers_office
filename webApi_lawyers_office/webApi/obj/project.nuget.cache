@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BUkfsfWDERtXn7ODkoGqmf+0pBBe/KVJ88b/mshZRJKeDqmyD3sqHyO5dFK/+0wtD6PTpi4aq7/0hK5ZIU2Maw==",
+  "dgSpecHash": "ZFXbrONOPu+8d+A09hxA7yw2lktnX93rezVGyrrCvdwbh7hC/jbPfsB+iHb1U1JFW17LQCurwzaD+LeQGaFqeQ==",
   "success": true,
-  "projectFilePath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\webApi\\webApi.csproj",
+  "projectFilePath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\webApi\\webApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ולר\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ולר\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

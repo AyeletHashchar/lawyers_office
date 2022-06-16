@@ -5817,11 +5817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\Dal\\Dal.csproj",
+      "projectUniqueName": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\Dal\\Dal.csproj",
       "projectName": "Dal",
-      "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\Dal\\Dal.csproj",
+      "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\Dal\\Dal.csproj",
       "packagesPath": "C:\\Users\\ולר\\.nuget\\packages\\",
-      "outputPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\Dal\\obj\\",
+      "outputPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\Dal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ולר\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\EntitiesDTO\\EntitiesDTO.csproj": {
-              "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\EntitiesDTO\\EntitiesDTO.csproj"
+            "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\EntitiesDTO\\EntitiesDTO.csproj": {
+              "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\EntitiesDTO\\EntitiesDTO.csproj"
             }
           }
         }

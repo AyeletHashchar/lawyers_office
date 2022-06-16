@@ -5942,11 +5942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\webApi\\webApi.csproj",
+      "projectUniqueName": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\webApi\\webApi.csproj",
       "projectName": "webApi",
-      "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\webApi\\webApi.csproj",
+      "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\webApi\\webApi.csproj",
       "packagesPath": "C:\\Users\\ולר\\.nuget\\packages\\",
-      "outputPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\webApi\\obj\\",
+      "outputPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ולר\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5963,11 +5963,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\BLL\\BLL.csproj": {
-              "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\BLL\\BLL.csproj"
+            "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\BLL\\BLL.csproj": {
+              "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\BLL\\BLL.csproj"
             },
-            "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\Dal\\Dal.csproj": {
-              "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\web_api\\webApi_lawyers_office\\Dal\\Dal.csproj"
+            "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\Dal\\Dal.csproj": {
+              "projectPath": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\Dal\\Dal.csproj"
             }
           }
         }
