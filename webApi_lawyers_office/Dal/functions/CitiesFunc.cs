@@ -43,9 +43,9 @@ namespace Dal.functions
                 db.SaveChanges();
                 return CitiesConverter.toDto(newObj);
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw;
             }
 
         }
@@ -59,9 +59,9 @@ namespace Dal.functions
                 db.SaveChanges();
                 return CitiesConverter.toDto(objToUpdate);
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw;
             }
         }
 
@@ -74,9 +74,9 @@ namespace Dal.functions
                 db.SaveChanges();
                 return CitiesConverter.toDto(objToRemove);
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw;
             }
         }
     }
