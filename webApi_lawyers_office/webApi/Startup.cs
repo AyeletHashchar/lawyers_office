@@ -32,11 +32,17 @@ namespace webApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddControllers();
             //הגדרה למנהל התלויות איזה מופע ליצור עבור כל ממשק
             services.AddScoped(typeof(Icities), typeof(CitiesFunc));
             services.AddScoped(typeof(IcitiesBll), typeof(CitiesBll));
+            services.AddScoped(typeof(Ipayments), typeof(PaymentsFunc));
+            services.AddScoped(typeof(IpaymentsBll), typeof(PaymentsBll));
+            services.AddScoped(typeof(Ilinks), typeof(LinksFunc));
+            services.AddTransient(typeof(IlinksBll), typeof(LinksBll));
+
             //הוספת הגדרה למנהל התלויות על מסד הנתונים
             services.AddDbContext<Layers_OfficeContext>(opt => opt.UseSqlServer("Server=DESKTOP-A8BTK9B\\SQL2019;Database=Layers_Office;Trusted_Connection=true"));
             services.AddSwaggerGen(c =>

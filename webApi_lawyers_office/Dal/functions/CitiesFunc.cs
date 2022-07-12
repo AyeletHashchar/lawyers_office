@@ -17,6 +17,7 @@ namespace Dal.functions
         {
             db = _db;
         }
+
         public List<CitiesDto> GetAll()
         {
             return CitiesConverter.toDtoList(db.Cities.ToList());
@@ -24,22 +25,59 @@ namespace Dal.functions
 
         public CitiesDto GetById(int id)
         {
-            return CitiesConverter.toDto(db.Cities.First(c=>c.Id==id));
+            try
+            {
+                return CitiesConverter.toDto(db.Cities.First(obj => obj.Id == id));
+            }
+            catch
+            {
+                return null;
+            }
         }
 
-        public City post(CitiesDto c)
+        public CitiesDto post(CitiesDto obj)
         {
             try
             {
-                City newCity = db.Cities.Add(CitiesConverter.toDal(c)).Entity;
+                City newObj = db.Cities.Add(CitiesConverter.toDal(obj)).Entity;
                 db.SaveChanges();
-                return newCity;
+                return CitiesConverter.toDto(newObj);
             }
             catch (Exception e)
             {
                 throw e;
             }
 
+        }
+
+        public CitiesDto put(CitiesDto obj)
+        {
+            try
+            {
+                City objToUpdate = db.Cities.First(item=> item.Id== item.Id);
+                objToUpdate.CityName = obj.CityName;
+                db.SaveChanges();
+                return CitiesConverter.toDto(objToUpdate);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public CitiesDto delete(int id)
+        {
+            try
+            {
+                City objToRemove = db.Cities.First(item=> item.Id==id);
+                db.Cities.Remove(objToRemove);
+                db.SaveChanges();
+                return CitiesConverter.toDto(objToRemove);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
     }
 }

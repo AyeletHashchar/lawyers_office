@@ -12,6 +12,8 @@ namespace BLL.interfaces
     {
         public List<CitiesDto> GetAll();
         public CitiesDto GetById(int id);
-        public City post(CitiesDto c);
+        public CitiesDto post(CitiesDto obj);
+        public CitiesDto put(CitiesDto obj);
+        public CitiesDto delete(int id);
     }
 }

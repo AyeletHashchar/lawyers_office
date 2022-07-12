@@ -11,10 +11,10 @@ namespace webApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CitiecController : ControllerBase
+    public class CitiesController : ControllerBase
     {
         IcitiesBll bll;
-        public CitiecController(IcitiesBll _bll)
+        public CitiesController(IcitiesBll _bll)
         {
             bll = _bll;
         }
@@ -31,11 +31,25 @@ namespace webApi.Controllers
             return Ok(bll.GetById(id));
         }
 
-        [HttpPost("postCity")]
-        public ActionResult<CitiesDto> postCity([FromBody] CitiesDto c)
+        [HttpPost("post")]
+        public ActionResult<CitiesDto> post([FromBody] CitiesDto obj)
         {
-
-            return Ok(bll.post(c));
+            return Ok(bll.post(obj));
         }
+
+
+        [HttpPut("put")]
+        public ActionResult<CitiesDto> put([FromBody] CitiesDto obj)
+        {
+            return Ok(bll.put(obj));
+        }
+
+
+        [HttpDelete("delete/{id}")]
+        public ActionResult<CitiesDto> delete(int id)
+        {
+            return Ok(bll.delete(id));
+        }
+
     }
 }

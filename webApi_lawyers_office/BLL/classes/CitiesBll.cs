@@ -18,6 +18,7 @@ namespace BLL.classes
         {
             dal = _dal;
         }
+
         public List<CitiesDto> GetAll()
         {
             return dal.GetAll();
@@ -28,9 +29,19 @@ namespace BLL.classes
             return dal.GetById(id);
         }
 
-        public City post(CitiesDto c)
+        public CitiesDto post(CitiesDto obj)
         {
-            return dal.post(c);
+            return dal.post(obj);
+        }
+
+        public CitiesDto put(CitiesDto obj)
+        {
+            return dal.put(obj);
+        }   
+
+        public CitiesDto delete(int id)
+        {
+            return dal.delete(id);
         }
     }
 }

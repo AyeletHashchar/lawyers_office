@@ -20,6 +20,6 @@ namespace Dal.models
         public string FinalSum { get; set; }
         public string Discription { get; set; }
 
-        public virtual ICollection<ActionPattern> ActionPatterns { get; set; }
+        public virtual ICollection<ActionPattern>? ActionPatterns { get; set; }
     }
 }

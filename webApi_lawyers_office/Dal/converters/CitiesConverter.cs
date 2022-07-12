@@ -18,12 +18,6 @@ namespace Dal.converters
         {
             return new City { Id = c.Id, CityName = c.CityName };
         }
-
-        internal static List<CitiesDto> toDalList(List<City> cities)
-        {
-            throw new NotImplementedException();
-        }
-
         public static List<CitiesDto> toDtoList(List<City> c)
         {
             List<CitiesDto> l = new List<CitiesDto>();
