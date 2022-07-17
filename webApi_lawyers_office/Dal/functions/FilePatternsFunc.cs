@@ -56,6 +56,7 @@ namespace Dal.functions
             {
                 FilePattern objToUpdate = db.FilePatterns.First(item=> item.Id== item.Id);
                 objToUpdate.FilePatternName = obj.Title;
+                objToUpdate.Access = obj.Access;
                 db.SaveChanges();
                 return FilePatternsConverter.toDto(objToUpdate);
             }

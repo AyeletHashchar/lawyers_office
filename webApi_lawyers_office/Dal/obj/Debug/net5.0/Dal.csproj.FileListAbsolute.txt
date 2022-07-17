@@ -33,4 +33,4 @@ G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\Dal\obj\Deb
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\Dal\obj\Debug\net5.0\Dal.pdb
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\Dal\obj\Debug\net5.0\Dal.genruntimeconfig.cache
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\Dal\obj\Debug\net5.0\ref\Dal.dll
-G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\Dal\bin\Debug\net5.0\ref\Dal.dll
+G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\Dal\obj\Debug\net5.0\refint\Dal.dll

@@ -203,5 +203,4 @@ G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\bin\
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\bin\Debug\net5.0\webApi.Views.dll
-G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\bin\Debug\net5.0\ref\webApi.dll
-G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\obj\Debug\net5.0\staticwebassets\webApi.StaticWebAssets.xml
+G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\webApi\obj\Debug\net5.0\refint\webApi.dll

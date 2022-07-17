@@ -42,9 +42,9 @@ namespace Dal.functions
                 db.SaveChanges();
                 return PaymentsConverter.toDto(newPayment);
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw;
             }
         }
 
@@ -64,9 +64,9 @@ namespace Dal.functions
                 db.SaveChanges();
                 return PaymentsConverter.toDto(objToUpdate);
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw;
             }
         }
 
@@ -79,9 +79,9 @@ namespace Dal.functions
                 db.SaveChanges();
                 return PaymentsConverter.toDto(objToRemove);
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw;
             }
         }
     }

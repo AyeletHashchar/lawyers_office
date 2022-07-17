@@ -44,6 +44,8 @@ namespace webApi
             services.AddTransient(typeof(IlinksBll), typeof(LinksBll));
             services.AddScoped(typeof(IfilePatterns), typeof(FilePatternsFunc));
             services.AddTransient(typeof(IfilePatternsBll), typeof(FilePatternsBll));
+            services.AddScoped(typeof(IactionPatterns), typeof(ActionPatternsFunc));
+            services.AddTransient(typeof(IactionPatternsBll), typeof(ActionPatternsBll));
 
             //הוספת הגדרה למנהל התלויות על מסד הנתונים
             services.AddDbContext<Layers_OfficeContext>(opt => opt.UseSqlServer("Server=DESKTOP-A8BTK9B\\SQL2019;Database=Layers_Office;Trusted_Connection=true"));

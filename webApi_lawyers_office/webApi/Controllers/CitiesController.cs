@@ -22,33 +22,68 @@ namespace webApi.Controllers
         [HttpGet("getAll")]
         public ActionResult<List<CitiesDto>> getAll()
         {
-            return Ok(bll.GetAll());
+            try
+            {
+                return Ok(bll.GetAll());
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
 
         [HttpGet("getById/{id}")]
         public ActionResult<CitiesDto> getById(int id)
         {
-            return Ok(bll.GetById(id));
+            try
+            {
+                return Ok(bll.GetById(id));
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
 
         [HttpPost("post")]
         public ActionResult<CitiesDto> post([FromBody] CitiesDto obj)
         {
-            return Ok(bll.post(obj));
+            try
+            {
+                return Ok(bll.post(obj));
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
 
 
         [HttpPut("put")]
         public ActionResult<CitiesDto> put([FromBody] CitiesDto obj)
         {
-            return Ok(bll.put(obj));
+            try
+            {
+                return Ok(bll.put(obj));
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
 
 
         [HttpDelete("delete/{id}")]
         public ActionResult<CitiesDto> delete(int id)
         {
-            return Ok(bll.delete(id));
+            try
+            {
+                return Ok(bll.delete(id));
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
 
     }

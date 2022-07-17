@@ -21,4 +21,4 @@ G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\EntitiesDTO
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.dll
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\EntitiesDTO.pdb
 G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\ref\EntitiesDTO.dll
-G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\EntitiesDTO\bin\Debug\net5.0\ref\EntitiesDTO.dll
+G:\Esther\studies\אחר\הפרויקט\github\webApi_lawyers_office\EntitiesDTO\obj\Debug\net5.0\refint\EntitiesDTO.dll
