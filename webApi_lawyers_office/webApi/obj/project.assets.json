@@ -2121,7 +2121,10 @@
         },
         "runtime": {
           "bin/placeholder/EntitiesDTO.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

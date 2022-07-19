@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "im3IGSxB06tIK7Nr2QcXO6boZ6FTazA9xrYxi19aNgc=",
+  "Source": "TestProject",
+  "BasePath": "_content/TestProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "G:\\Esther\\studies\\אחר\\הפרויקט\\github\\webApi_lawyers_office\\webApi\\webApi.csproj",
+      "Version": 1,
+      "Source": "webApi",
+      "GetPublishAssetsTargets": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectStaticWebAssetsV2",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

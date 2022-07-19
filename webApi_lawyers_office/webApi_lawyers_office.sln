@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dal", "Dal\Dal.csproj", "{B25D8763-5534-4158-9F3D-6BC7436DC071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C49AF83B-C8A9-4F4F-90AA-86C9CC00D207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{C49AF83B-C8A9-4F4F-90AA-86C9CC00D207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesDTO", "EntitiesDTO\EntitiesDTO.csproj", "{A9DBF571-1945-4EB0-AD2D-93435FB61172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntitiesDTO", "EntitiesDTO\EntitiesDTO.csproj", "{A9DBF571-1945-4EB0-AD2D-93435FB61172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webApi", "webApi\webApi.csproj", "{5CEEA626-12E7-435E-9FDB-6216A42A77FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webApi", "webApi\webApi.csproj", "{5CEEA626-12E7-435E-9FDB-6216A42A77FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{CA4F14B0-864F-4ED3-9B61-290A35B690CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5CEEA626-12E7-435E-9FDB-6216A42A77FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CEEA626-12E7-435E-9FDB-6216A42A77FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CEEA626-12E7-435E-9FDB-6216A42A77FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4F14B0-864F-4ED3-9B61-290A35B690CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4F14B0-864F-4ED3-9B61-290A35B690CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4F14B0-864F-4ED3-9B61-290A35B690CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4F14B0-864F-4ED3-9B61-290A35B690CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

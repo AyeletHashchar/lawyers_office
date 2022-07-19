@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace webApi.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class PaymentsController : Controller
     {
         IpaymentsBll bll;
